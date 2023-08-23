@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 const TRACKING_ID = "G-RLZM9C37KW";
 const ola = "oi";
 ReactGA.initialize(TRACKING_ID);
+ReactGA.send({ hitType: "pageview", page: "/"});
 
 export default function RootLayout({
   children,
