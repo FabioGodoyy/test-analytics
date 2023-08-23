@@ -24,21 +24,7 @@ export default function RootLayout({
   console.log(ola)
   return (
     <html lang="en">
-      {/* <head>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-RLZM9C37KW"
-        />
-        <Script id="ga-config">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', '${TRACKING_ID}');
-          `}
-        </Script>
-      </head> */}
+     
       <body className={inter.className}>{children}</body>
     </html>
   );
