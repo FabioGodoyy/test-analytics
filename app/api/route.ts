@@ -10,7 +10,7 @@ export async function GET() {
  const jwt = new google.auth.JWT(
     CLIENT_EMAIL,
     "",
-    PRIVATE_KEY.replace(/\\n/g, "\n"),
+    PRIVATE_KEY,
     scopes
  )
 
