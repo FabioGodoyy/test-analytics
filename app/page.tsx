@@ -34,6 +34,7 @@ export default function Home() {
   //     }
   //   }).then("displayResults", console.error.bind(console));
   // }
+  //  const domain = window.location.hostname;
   
   return (
     <main className="flex min-h-screen flex-col items-center justify-arround p-24">

@@ -17,7 +17,7 @@ export default function AnalyticsReport() {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
-              Authorization: `Bearer G-RLZM9C37KW`,
+              Authorization: `Bearer 354171984201-ni58p9migigh3a28vndv9g4rs0orl5po.apps.googleusercontent.com`,
             },
             body: JSON.stringify({
               reportRequests: [
